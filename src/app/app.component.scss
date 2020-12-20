@@ -1,0 +1,40 @@
+.portfolio {
+   
+    &-header {
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        &-sections {
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+            padding-left: 25%;
+            padding-right: 25%;
+
+            &-item {
+                cursor: pointer;
+                padding: 0 .5rem 0 0.5rem;
+            }
+        }
+    }
+
+    &-home {
+        height: calc(100vh - 40px);
+        background-image: linear-gradient(to bottom, black, rgba(58, 58, 59));
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &-header {
+            font-size: 9rem;
+            font-weight: 800;
+            padding: 0 20% 0 20%;
+        }
+        &-body {
+            font-size: 2rem;
+            padding: 0 25% 0 25%;
+        }
+    }
+}
